@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8ADDDCA291E01330066C518 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ADDDC9291E01330066C518 /* SecondView.swift */; };
+		F8ADDDCC291E2A220066C518 /* CalculaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ADDDCB291E2A220066C518 /* CalculaterView.swift */; };
+		F8ADDDCF291E38170066C518 /* Intererst.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ADDDCD291E372F0066C518 /* Intererst.swift */; };
 		F8C6D0AB291CAB8B00C1CD63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C6D0AA291CAB8B00C1CD63 /* AppDelegate.swift */; };
 		F8C6D0AD291CAB8B00C1CD63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C6D0AC291CAB8B00C1CD63 /* SceneDelegate.swift */; };
 		F8C6D0AF291CAB8B00C1CD63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C6D0AE291CAB8B00C1CD63 /* ViewController.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F8ADDDC9291E01330066C518 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		F8ADDDCB291E2A220066C518 /* CalculaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculaterView.swift; sourceTree = "<group>"; };
+		F8ADDDCD291E372F0066C518 /* Intererst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intererst.swift; sourceTree = "<group>"; };
 		F8C6D0A7291CAB8B00C1CD63 /* utsav busa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "utsav busa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C6D0AA291CAB8B00C1CD63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8C6D0AC291CAB8B00C1CD63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +112,9 @@
 				F8C6D0B3291CAB8D00C1CD63 /* Assets.xcassets */,
 				F8C6D0B5291CAB8D00C1CD63 /* LaunchScreen.storyboard */,
 				F8C6D0B8291CAB8D00C1CD63 /* Info.plist */,
+				F8ADDDC9291E01330066C518 /* SecondView.swift */,
+				F8ADDDCB291E2A220066C518 /* CalculaterView.swift */,
+				F8ADDDCD291E372F0066C518 /* Intererst.swift */,
 			);
 			path = "utsav busa";
 			sourceTree = "<group>";
@@ -260,6 +269,9 @@
 			files = (
 				F8C6D0AF291CAB8B00C1CD63 /* ViewController.swift in Sources */,
 				F8C6D0AB291CAB8B00C1CD63 /* AppDelegate.swift in Sources */,
+				F8ADDDCF291E38170066C518 /* Intererst.swift in Sources */,
+				F8ADDDCC291E2A220066C518 /* CalculaterView.swift in Sources */,
+				F8ADDDCA291E01330066C518 /* SecondView.swift in Sources */,
 				F8C6D0AD291CAB8B00C1CD63 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,11 +451,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "utsav busa/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "utsav busa";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,11 +481,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "utsav busa/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "utsav busa";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
